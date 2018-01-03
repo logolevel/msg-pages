@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+
+</head>
+
+<body>
+
+
+	<!-- Start wrapper -->
+	<div class="wrapper">
+		
+		<!-- Start header -->
+		<header class="header">
+			<div class="container">
+				<div class="header-content">
+					<div class="header-content__left">
+						<a href="#!" class="logo"><img src="img/logo.png" alt="logo"></a>
+					</div>
+					<div class="header-content__right">
+						<ul class="main-menu">
+							<li class="main-menu__item"><a href="dashboard.html" class="main-menu__link main-menu__link--active">Dashboard</a></li>
+							<li class="main-menu__item"><a href="history.html" class="main-menu__link">History</a></li>
+							<li class="main-menu__item"><a href="affiliate.html" class="main-menu__link">Affiliate</a></li>
+							<li class="main-menu__item"><a href="account.html" class="main-menu__link">Account</a></li>
+						</ul>
+						<div class="select-with-title header__select">
+							<span class="select-with-title__title">Account currency</span>
+							<select class="selectpicker" data-style="btn-transparent-white">
+								<option>usd</option>
+								<option>btc</option>
+							</select>
+						</div>
+						<div class="select-with-title header__select">
+							<span class="select-with-title__title"><i class="fa fa-globe"></i></span>
+							<select class="selectpicker" data-style="btn-transparent-white">
+								<option>eng</option>
+								<option>ru</option>
+							</select>
+						</div>
+						<button class="btn btn-transparent-white header__exit-btn"><i class="fa fa-sign-out"></i></button>
+					</div>
+					<div class="header-content__trigger-menu">
+						<button class="btn btn-transparent-white">
+							<div class="hamburger">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End header -->
+		
+		<!-- Start main-content -->
+		<main class="main-content">
+
+			<!-- Start user-panel -->
+			<div class="user-panel section">
+				<div class="container">
+					<div class="user">
+						<div class="user-info">
+							<div class="user-info__photo"><img src="img/default-user-photo.png" alt=""></div>
+							<div class="user-info__name">John Snow</div>
+							<div class="user-info__email">johnsnow_stark@gmail.com</div>
+							<div class="user-info__date"><span class="user-info__date-title">Last login:</span>01/01/2017</div>
+						</div>
+						<div class="user-data">
+							<div class="user-balance">
+								<div class="user-balance__item">
+									<div class="user-balance__icon"><i class="fa fa-flag-checkered"></i></div>
+									<div class="user-balance__value">$1999.99</div>
+									<div class="user-balance__title">Available balance</div>
+								</div>
+								<div class="user-balance__item">
+									<div class="user-balance__icon"><i class="fa fa-credit-card-alt"></i></div>
+									<div class="user-balance__value">$1999.00</div>
+									<div class="user-balance__title">Total invested</div>
+								</div>
+								<div class="user-balance__item">
+									<div class="user-balance__icon"><i class="fa fa-briefcase"></i></div>
+									<div class="user-balance__value">$1999.00</div>
+									<div class="user-balance__title">Active investments</div>
+								</div>
+								<div class="user-balance__item">
+									<div class="user-balance__icon"><i class="fa fa-shopping-cart"></i></div>
+									<div class="user-balance__value">$1999.00</div>
+									<div class="user-balance__title">Total paid</div>
+								</div>
+								<div class="user-balance__item">
+									<div class="user-balance__icon"><i class="fa fa-pie-chart"></i></div>
+									<div class="user-balance__value">$1999.00</div>
+									<div class="user-balance__title">Affiliate bonus</div>
+								</div>
+							</div>
+							<div class="user-action row">
+								<div class="user-withdraw col-lg-8">
+									<div class="user-withdraw__balance">
+										<div class="user-withdraw__balance-title">Balance:</div>
+										<div class="user-withdraw__balance-values">
+											<span class="user-withdraw__balance-value"><span>usd</span>1.00</span>
+											<span class="user-withdraw__balance-value"><span>btc</span>1.002019</span>
+											<span class="user-withdraw__balance-value"><span>dsh</span>1.9583</span>
+											<span class="user-withdraw__balance-value"><span>eth</span>12.009091</span>
+										</div>
+									</div>
+									<div class="user-withdraw__btn-wrap"><button class="btn btn-green user-withdraw__btn">Withdraw</button></div>
+								</div>
+								<div class="user-affiliate col-lg-4">
+									<div class="user-affiliate__title">My affiliate link</div>
+									<div class="user-affiliate__link-wrap">
+										<div class="user-affiliate__link truncate">https://gms-invest.com/?aff=johnsnow</div>
+										<button class="btn btn-transparent-white user-affiliate__btn"><i class="fa fa-copy"></i></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End user-panel -->
+
+			<!-- Start investment -->
+			<div class="investment section" style="display: none;">
+				<div class="container">
+					<div class="investment-table table-responsive">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>
+										<div>Days</div>
+										<div><i class="fa fa-calendar-check-o"></i></div>
+									</th>
+									<th>
+										<div><span>5</span>%<span>daily</span></div>
+										<div>Term:<span>5-30</span>days</div>
+										<div>Amount:<span>10-200 $</span></div>
+										<div>(or equivalent of BTC, ETH, DSH)</div>
+									</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">1</th>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td>Larry</td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<!-- End investment -->
+
+			<!-- Start invest-offers -->
+			<div class="investment section" style="display: none;">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8">
+							<div class="section-title">Investment offers</div>
+							<div class="investment-offers">
+								<div class="investment-offers__item">
+									<div class="investment-offers__title">Currency</div>
+									<div class="investment-offers__content">
+										<button class="btn btn-outline-gray investment-offers__link active"><i class="fa fa-bitcoin"></i>Btc</button>
+										<button class="btn btn-outline-gray investment-offers__link"><i class="cc ETH-alt"></i>Eth</button>
+										<button class="btn btn-outline-gray investment-offers__link"><i class="cc DASH-alt"></i>Dsh</button>
+										<button class="btn btn-outline-gray investment-offers__link"><i class="fa fa-dollar"></i>Usd</button>
+									</div>
+								</div>
+								<div class="investment-offers__item">
+									<div class="investment-offers__title">Days</div>
+									<div class="investment-offers__content">
+										<button class="btn btn-outline-gray investment-offers__link active">5</button>
+										<button class="btn btn-outline-gray investment-offers__link">10</button>
+										<button class="btn btn-outline-gray investment-offers__link">15</button>
+										<button class="btn btn-outline-gray investment-offers__link">20</button>
+										<button class="btn btn-outline-gray investment-offers__link">25</button>
+										<button class="btn btn-outline-gray investment-offers__link">30</button>
+									</div>
+								</div>
+								<div class="investment-offers__item">
+									<div class="investment-offers__title">Amount</div>
+									<div class="investment-offers__content">
+										<div class="input-group amount-input">
+											<input type="text" class="form-control form-control--center" placeholder="Username" value="1.902837">
+											<span class="input-group-addon input-group-addon--amount">Btc</span>
+										</div>
+										<div class="amount-input-subtile">min investment 0.005 BTC</div>
+										<div class="investment-offers__btn">
+											<button class="btn btn-green">Make your investment</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="section-title section-title--center">Investment offers</div>
+							<div class="summary">
+								<div class="summary__title">Payment method</div>
+								<div class="summary__wallet"><i class="fa fa-bitcoin"></i>Btc</div>
+								<div class="summary__value">
+									<div class="summary__value-item">
+										<div class="summary__value-num">0.00123<span>Btc</span></div>
+										<div class="summary__value-text">Clean profit</div>
+									</div>
+									<div class="summary__value-item">
+										<div class="summary__value-num">0.00123<span>Btc</span></div>
+										<div class="summary__value-text">Clean profit</div>
+									</div>
+								</div>
+								<div class="summary__table">
+									<div class="summary__table-item">
+										<div class="summary__table-title">Daily %:</div>
+										<div class="summary__table-value">5 %</div>
+									</div>
+									<div class="summary__table-item">
+										<div class="summary__table-title">Daily income:</div>
+										<div class="summary__table-value">0.00123 Btc</div>
+									</div>
+									<div class="summary__table-item">
+										<div class="summary__table-title">End term bonus:</div>
+										<div class="summary__table-value">7.8% / 0.00231 Btc</div>
+									</div>
+									<div class="summary__table-item">
+										<div class="summary__table-title">Affiliate bonus:</div>
+										<div class="summary__table-value">5% / 0.09234 Btc</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End invest-offers -->
+
+
+			<!-- Start plan -->
+			<div class="plan-wrap section">
+				<div class="container">
+					<div class="plan">
+						<div class="table-filter nav" role="tablist">
+							<button class="nav-link btn table-filter__link active" data-toggle="tab" href="#standart" role="tab">Standart</button>
+							<button class="nav-link btn table-filter__link" data-toggle="tab" href="#network" role="tab">Network</button>
+							<button class="nav-link btn table-filter__link" data-toggle="tab" href="#professional" role="tab">Professional</button>
+							<button class="nav-link btn table-filter__link" data-toggle="tab" href="#enterprice" role="tab">Enterprise</button>
+						</div>
+						<div class="tab-content plan-content">
+							<div class="tab-pane active" id="standart" role="tabpanel">
+								<div class="row m-0">
+									<div class="col-lg-8 plan-calculate-wrap">	
+										<div class="row plan-calculate">
+											<div class="col-md-6 plan-info">
+												<div class="plan-info__title">
+													<div class="plan-info__title-circle">
+														<div class="plan-info__title-circle-content"><span>10</span>%</div>
+													</div>
+													<div class="plan-info__title-text">Daily</div>
+												</div>
+												<div class="plan-info__subtitle">for <span>15</span> <b>business</b> days</div>
+												<div class="plan-info__data">
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Amount spent:</div>
+														<div class="plan-info__item-value">$10-$1000,00</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Principal:</div>
+														<div class="plan-info__item-value">Include</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Total return:</div>
+														<div class="plan-info__item-value">150%(50% Net)</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Payment Days:</div>
+														<div class="plan-info__item-value">Mon-Fri</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Min-Max Withdrawal:</div>
+														<div class="plan-info__item-value">$1 - No limit</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6 calculate">
+												<div class="calculate__title">Calculate now</div>
+												<div class="calculate__item">
+													<div class="input-group input-group--select">
+														<span class="input-group-addon">Currency</span>
+														<select class="selectpicker" data-style="btn-white">
+															<option data-icon="fw fw-bitcoin">Bitcoin (BTC)</option>
+															<option data-icon="fw fw-ethereum">Ethereum (ETH)</option>
+															<option data-icon="fw fw-dash">Dashcoin (DSH)</option>
+															<option data-icon="fw fw-perfect-money">Perfect Money (PM)</option>
+															<option data-icon="fw fw-payeer">Payeer (P)</option>
+															<option data-icon="fw fw-advcash">Advcash (ADV)</option>
+														</select>
+													</div>
+													<div class="input-group input-group--select">
+														<span class="input-group-addon">Currency</span>
+														<input type="text" class="form-control" placeholder="min 0.005">
+														<span class="input-group-addon">Btc</span>
+													</div>
+													<button class="btn btn-outline-green btn-def">Calculate</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 plan-summary-wrap">
+										<div class="plan-summary">
+											<div class="sum">
+												<div class="sum__title">Summary</div>
+												<div class="sum__row">
+													<div class="sum__item">
+														<div class="sum__item-title">Payment method</div>
+														<div class="sum__item-value"><i class="cc BTC-alt"></i><span class="fz-14">Bitcoin (BTC)</span></div>
+													</div>
+													<div class="sum__item">
+														<div class="sum__item-title">Daily income</div>
+														<div class="sum__item-value">0.00123 <span class="fz-14">BTC</span></div>
+													</div>
+													<div class="sum__item">
+														<div class="sum__item-title">Net profit</div>
+														<div class="sum__item-value"><span class="fw-700">0.00123</span><span class="fz-14"> BTC</span></div>
+													</div>
+													<div class="sum__item">
+														<div class="sum__item-title">Total return</div>
+														<div class="sum__item-value"><span class="fw-700">0.00123</span><span class="fz-14"> BTC</span></div>
+													</div>
+												</div>
+												<button class="btn btn-green btn-def">Make deposit</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="network" role="tabpanel">
+								<div class="row m-0">
+									<div class="col-lg-8 plan-calculate-wrap">	
+										<div class="row plan-calculate">
+											<div class="col-md-6 plan-info">
+												<div class="plan-info__title">
+													<div class="plan-info__title-circle">
+														<div class="plan-info__title-circle-content"><span>10</span>%</div>
+													</div>
+													<div class="plan-info__title-text">Daily</div>
+												</div>
+												<div class="plan-info__subtitle">for <span>16</span> <b>business</b> days</div>
+												<div class="plan-info__data">
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Amount spent:</div>
+														<div class="plan-info__item-value">$1001-$3000</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Principal:</div>
+														<div class="plan-info__item-value">Include</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Total return:</div>
+														<div class="plan-info__item-value">160%(60% Net)</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Payment Days:</div>
+														<div class="plan-info__item-value">Mon-Fri</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Min-Max Withdrawal:</div>
+														<div class="plan-info__item-value">$1 - No limit</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6 calculate">
+												<div class="calculate__title">Calculate now</div>
+												<div class="calculate__item">
+													<div class="input-group input-group--select">
+														<span class="input-group-addon">Currency</span>
+														<select class="selectpicker" data-style="btn-white">
+															<option data-icon="fw fw-bitcoin">Bitcoin (BTC)</option>
+															<option data-icon="fw fw-ethereum">Ethereum (ETH)</option>
+															<option data-icon="fw fw-dash">Dashcoin (DSH)</option>
+															<option data-icon="fw fw-perfect-money">Perfect Money (PM)</option>
+															<option data-icon="fw fw-payeer">Payeer (P)</option>
+															<option data-icon="fw fw-advcash">Advcash (ADV)</option>
+														</select>
+													</div>
+													<div class="input-group input-group--select">
+														<span class="input-group-addon">Currency</span>
+														<input type="text" class="form-control" placeholder="min 0.05">
+														<span class="input-group-addon">Btc</span>
+													</div>
+													<button class="btn btn-outline-green btn-def">Calculate</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 plan-summary-wrap">
+										<div class="plan-summary">
+											<div class="sum">
+												<div class="sum__title">Summary</div>
+												<div class="sum__row">
+													<div class="sum__item">
+														<div class="sum__item-title">Payment method</div>
+														<div class="sum__item-value"><i class="cc BTC-alt"></i><span class="fz-14">Bitcoin (BTC)</span></div>
+													</div>
+													<div class="sum__item">
+														<div class="sum__item-title">Daily income</div>
+														<div class="sum__item-value">0.00123 <span class="fz-14">BTC</span></div>
+													</div>
+													<div class="sum__item">
+														<div class="sum__item-title">Net profit</div>
+														<div class="sum__item-value"><span class="fw-700">0.00123</span><span class="fz-14"> BTC</span></div>
+													</div>
+													<div class="sum__item">
+														<div class="sum__item-title">Total return</div>
+														<div class="sum__item-value"><span class="fw-700">0.00123</span><span class="fz-14"> BTC</span></div>
+													</div>
+												</div>
+												<button class="btn btn-green btn-def">Make deposit</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="professional" role="tabpanel">
+								<div class="row m-0">
+									<div class="col-lg-8 plan-calculate-wrap">	
+										<div class="row plan-calculate">
+											<div class="col-md-6 plan-info">
+												<div class="plan-info__title">
+													<div class="plan-info__title-circle">
+														<div class="plan-info__title-circle-content"><span>10</span>%</div>
+													</div>
+													<div class="plan-info__title-text">Daily</div>
+												</div>
+												<div class="plan-info__subtitle">for <span>17</span> <b>business</b> days</div>
+												<div class="plan-info__data">
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Amount spent:</div>
+														<div class="plan-info__item-value">$3001-$10000</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Principal:</div>
+														<div class="plan-info__item-value">Include</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Total return:</div>
+														<div class="plan-info__item-value">170%(70% Net)</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Payment Days:</div>
+														<div class="plan-info__item-value">Mon-Fri</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Min-Max Withdrawal:</div>
+														<div class="plan-info__item-value">$1 - No limit</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6 calculate">
+												<div class="calculate__title">Calculate now</div>
+												<div class="calculate__item">
+													<div class="input-group input-group--select">
+														<span class="input-group-addon">Currency</span>
+														<select class="selectpicker" data-style="btn-white">
+															<option data-icon="fw fw-bitcoin">Bitcoin (BTC)</option>
+															<option data-icon="fw fw-ethereum">Ethereum (ETH)</option>
+															<option data-icon="fw fw-dash">Dashcoin (DSH)</option>
+															<option data-icon="fw fw-perfect-money">Perfect Money (PM)</option>
+															<option data-icon="fw fw-payeer">Payeer (P)</option>
+															<option data-icon="fw fw-advcash">Advcash (ADV)</option>
+														</select>
+													</div>
+													<div class="input-group input-group--select">
+														<span class="input-group-addon">Currency</span>
+														<input type="text" class="form-control" placeholder="min 0.05">
+														<span class="input-group-addon">Btc</span>
+													</div>
+													<button class="btn btn-outline-green btn-def">Calculate</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 plan-summary-wrap">
+										<div class="plan-summary">
+											<div class="sum">
+												<div class="sum__title">Summary</div>
+												<div class="sum__row">
+													<div class="sum__item">
+														<div class="sum__item-title">Payment method</div>
+														<div class="sum__item-value"><i class="cc BTC-alt"></i><span class="fz-14">Bitcoin (BTC)</span></div>
+													</div>
+													<div class="sum__item">
+														<div class="sum__item-title">Daily income</div>
+														<div class="sum__item-value">0.00123 <span class="fz-14">BTC</span></div>
+													</div>
+													<div class="sum__item">
+														<div class="sum__item-title">Net profit</div>
+														<div class="sum__item-value"><span class="fw-700">0.00123</span><span class="fz-14"> BTC</span></div>
+													</div>
+													<div class="sum__item">
+														<div class="sum__item-title">Total return</div>
+														<div class="sum__item-value"><span class="fw-700">0.00123</span><span class="fz-14"> BTC</span></div>
+													</div>
+												</div>
+												<button class="btn btn-green btn-def">Make deposit</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="enterprice" role="tabpanel">
+								<div class="row m-0">
+									<div class="col-lg-8 plan-calculate-wrap">	
+										<div class="row plan-calculate">
+											<div class="col-md-6 plan-info">
+												<div class="plan-info__title">
+													<div class="plan-info__title-circle">
+														<div class="plan-info__title-circle-content"><span>10</span>%</div>
+													</div>
+													<div class="plan-info__title-text">Daily</div>
+												</div>
+												<div class="plan-info__subtitle">for <span>18</span> <b>business</b> days</div>
+												<div class="plan-info__data">
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Amount spent:</div>
+														<div class="plan-info__item-value">$10001-$100000</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Principal:</div>
+														<div class="plan-info__item-value">Include</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Total return:</div>
+														<div class="plan-info__item-value">180%(80% Net)</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Payment Days:</div>
+														<div class="plan-info__item-value">Mon-Fri</div>
+													</div>
+													<div class="plan-info__item">
+														<div class="plan-info__item-title">Min-Max Withdrawal:</div>
+														<div class="plan-info__item-value">$1 - No limit</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6 calculate">
+												<div class="calculate__title">Calculate now</div>
+												<div class="calculate__item">
+													<div class="input-group input-group--select">
+														<span class="input-group-addon">Currency</span>
+														<select class="selectpicker" data-style="btn-white">
+															<option data-icon="fw fw-bitcoin">Bitcoin (BTC)</option>
+															<option data-icon="fw fw-ethereum">Ethereum (ETH)</option>
+															<option data-icon="fw fw-dash">Dashcoin (DSH)</option>
+															<option data-icon="fw fw-perfect-money">Perfect Money (PM)</option>
+															<option data-icon="fw fw-payeer">Payeer (P)</option>
+															<option data-icon="fw fw-advcash">Advcash (ADV)</option>
+														</select>
+													</div>
+													<div class="input-group input-group--select">
+														<span class="input-group-addon">Currency</span>
+														<input type="text" class="form-control" placeholder="min 0.05">
+														<span class="input-group-addon">Btc</span>
+													</div>
+													<button class="btn btn-outline-green btn-def">Calculate</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 plan-summary-wrap">
+										<div class="plan-summary">
+											<div class="sum">
+												<div class="sum__title">Summary</div>
+												<div class="sum__row">
+													<div class="sum__item">
+														<div class="sum__item-title">Payment method</div>
+														<div class="sum__item-value"><i class="cc BTC-alt"></i><span class="fz-14">Bitcoin (BTC)</span></div>
+													</div>
+													<div class="sum__item">
+														<div class="sum__item-title">Daily income</div>
+														<div class="sum__item-value">0.00123 <span class="fz-14">BTC</span></div>
+													</div>
+													<div class="sum__item">
+														<div class="sum__item-title">Net profit</div>
+														<div class="sum__item-value"><span class="fw-700">0.00123</span><span class="fz-14"> BTC</span></div>
+													</div>
+													<div class="sum__item">
+														<div class="sum__item-title">Total return</div>
+														<div class="sum__item-value"><span class="fw-700">0.00123</span><span class="fz-14"> BTC</span></div>
+													</div>
+												</div>
+												<button class="btn btn-green btn-def">Make deposit</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End plan -->
+
+			<!-- Start my-invests -->
+			<div class="my-invests">
+				<div class="container">
+					<div class="section-title">My invests</div>
+					<div class="table-filter">
+						<button class="btn table-filter__link active">Active</button>
+						<button class="btn table-filter__link">Pending</button>
+						<button class="btn table-filter__link">Completed</button>
+					</div>
+					<div class="i-table">
+						<table class="table table-responsive">
+							<thead>
+								<tr>
+									<th>Payment method</th>
+									<th>Plan</th>
+									<th>Amount</th>
+									<th>Clean profit</th>
+									<th>End term bonus</th>
+									<th>Affiliate bonus</th>
+									<th>Total return</th>
+									<th>Open - close</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+									<td>6% Daily</td>
+									<td class="text-blue fw500">0.1920312 Btc</td>
+									<td>0.1920312 Btc</td>
+									<td>7.8% / 0.0619283 Btc</td>
+									<td>5% / 0.09234 Btc</td>
+									<td class="text-green fw500">0.222222 BTC</td>
+									<td>01/10/2017 - 6/10/2017</td>
+								</tr>
+								<tr>
+									<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+									<td>6% Daily</td>
+									<td class="text-blue fw500">0.1920312 Btc</td>
+									<td>0.1920312 Btc</td>
+									<td>7.8% / 0.0619283 Btc</td>
+									<td>5% / 0.09234 Btc</td>
+									<td class="text-green fw500">0.222222 BTC</td>
+									<td>01/10/2017 - 6/10/2017</td>
+								</tr>
+								<tr>
+									<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+									<td>6% Daily</td>
+									<td class="text-blue fw500">0.1920312 Btc</td>
+									<td>0.1920312 Btc</td>
+									<td>7.8% / 0.0619283 Btc</td>
+									<td>5% / 0.09234 Btc</td>
+									<td class="text-green fw500">0.222222 BTC</td>
+									<td>01/10/2017 - 6/10/2017</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<button class="btn btn-blue i-table__btn ladda-button" data-style="expand-right"><span class="ladda-label">Show more</span><i class="fa fa-angle-down"></i></button>
+				</div>
+			</div>
+			<!-- End my-invests -->
+
+
+		</main>
+		<!-- End main-content -->
+
+	</div>
+	<!-- End wrapper -->
+
+	<!-- Start footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="logo-footer">
+					<a href="#!" class="logo"><img src="img/logo-footer.png" alt="logo"></a>
+				</div>
+				<div class="server-time">
+					<span class="server-time__title">Server-time:</span>
+					<span class="server-time__time">09:09:15</span>
+				</div>
+				<div class="social">
+					<a href="#!" class="social__link"><i class="fa fa-facebook"></i></a>
+					<a href="#!" class="social__link"><i class="fa fa-telegram"></i></a>
+					<a href="#!" class="social__link"><i class="fa fa-skype"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer -->
+	
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>

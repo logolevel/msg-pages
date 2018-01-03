@@ -1,0 +1,165 @@
+@import "vars";
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.header-content__right {
+		display: none;
+		&.visible {
+			display: flex;
+			flex-wrap: wrap;
+			position: absolute;
+			top: 62px;
+			left: 0;
+			bottom: 0;
+			z-index: 1;
+			overflow-y: scroll;
+			width: 100%;
+			background: $bg-blue-gradient;
+			animation: slideInDown .2s ease-out;
+		}
+	}
+	.header-content__trigger-menu {
+		display: block;
+	}
+	.main-menu,
+	.header__exit-btn,
+	.header__select,
+	.main-menu__item {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.main-menu__link {
+		display: inline-block;
+	}
+	.header-content__right.visible {
+		z-index: 1;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px){
+	.user {
+		display: block;
+	}
+	.user-info {
+		max-width: 100%;
+	}
+	.user-action {
+		display: block;
+	}
+	.user-affiliate,
+	.user-withdraw {
+		padding: 0 20px;
+		text-align: center;
+	}
+	.user-withdraw__balance {
+		display: block;
+	}
+	.investment-offers {
+		margin-bottom: 30px;
+	}
+	.summary__table-title {
+		text-align: right;
+		padding-right: 15px;
+	}
+
+	.my-invests-table .table {
+		width: 100%;
+		overflow-x: auto;
+		display: block;
+	}
+
+	.table-filter {
+		display: block;
+
+		&__link {
+			width: 100%;
+		}
+	}
+
+	.user-affiliate__link-wrap {
+		margin: 20px auto;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px){
+	.investment-offers {
+		&__item {
+			flex-wrap: wrap;
+		}
+		&__title {
+			width: 100%;
+			display: block;
+			flex: none;
+			padding: 10px 5px;
+		}
+	}
+
+	.footer-content {
+		display: block;
+		text-align: center;
+		& > div {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	.logo-footer  .logo {
+		margin: 0 auto;
+	}
+
+	.investment-offers__content--payment {
+		padding: 30px;
+	}
+
+	.affiliate-summary .block-shadow {
+		box-shadow: none;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.user-withdraw {
+		&__balance-title {
+			padding-right: 0;
+		}
+		&__balance-value {
+			display: block;
+		}
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 374px) {
+	.user-affiliate__link-wrap {
+		display: block;
+		margin: 20px auto;
+		// max-width: 250px; //todo truncate
+	}
+	.date-filter {
+		display: block;
+		&__title {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		&__item {
+			margin-bottom: 20px;
+			display: block;
+			text-align: center;
+		}
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	/**/
+}

@@ -1,0 +1,31 @@
+.fw {
+  font-family: 'fontwallet' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: text-bottom;
+}
+
+.fw-perfect-money:before {
+  content: "\e900";
+}
+.fw-payeer:before {
+  content: "\e901";
+}
+.fw-advcash:before {
+  content: "\e902";
+}
+.fw-dash:before {
+  content: "\e903";
+}
+.fw-ethereum:before {
+  content: "\e904";
+}
+.fw-bitcoin:before {
+  content: "\e905";
+}

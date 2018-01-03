@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>History</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+
+</head>
+
+<body>
+
+	<!-- Start wrapper -->
+	<div class="wrapper">
+		
+		<!-- Start header -->
+		<header class="header">
+			<div class="container">
+				<div class="header-content">
+					<div class="header-content__left">
+						<a href="#!" class="logo"><img src="img/logo.png" alt="logo"></a>
+					</div>
+					<div class="header-content__right">
+						<ul class="main-menu">
+							<li class="main-menu__item"><a href="dashboard.html" class="main-menu__link">Dashboard</a></li>
+							<li class="main-menu__item"><a href="history.html" class="main-menu__link main-menu__link--active">History</a></li>
+							<li class="main-menu__item"><a href="affiliate.html" class="main-menu__link">Affiliate</a></li>
+							<li class="main-menu__item"><a href="account.html" class="main-menu__link">Account</a></li>
+						</ul>
+						<div class="select-with-title header__select">
+							<span class="select-with-title__title">Account currency</span>
+							<select class="selectpicker" data-style="btn-transparent-white">
+								<option>usd</option>
+								<option>btc</option>
+							</select>
+						</div>
+						<div class="select-with-title header__select">
+							<span class="select-with-title__title"><i class="fa fa-globe"></i></span>
+							<select class="selectpicker" data-style="btn-transparent-white">
+								<option>eng</option>
+								<option>ru</option>
+							</select>
+						</div>
+						<button class="btn btn-transparent-white header__exit-btn"><i class="fa fa-sign-out"></i></button>
+					</div>
+					<div class="header-content__trigger-menu">
+						<button class="btn btn-transparent-white">
+							<div class="hamburger">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End header -->
+		
+		<!-- Start main-content -->
+		<main class="main-content">
+
+			<!-- Start user-panel -->
+			<div class="user-panel section">
+				<div class="container">
+					<div class="user">
+						<div class="user-info">
+							<div class="user-info__photo"><img src="img/default-user-photo.png" alt=""></div>
+							<div class="user-info__name">John Snow</div>
+							<div class="user-info__email">johnsnow_stark@gmail.com</div>
+							<div class="user-info__date"><span class="user-info__date-title">Last login:</span>01/01/2017</div>
+						</div>
+						<div class="user-data">
+							<div class="user-balance">
+								<div class="user-balance__item">
+									<div class="user-balance__icon"><i class="fa fa-flag-checkered"></i></div>
+									<div class="user-balance__value">$1999.99</div>
+									<div class="user-balance__title">Available balance</div>
+								</div>
+								<div class="user-balance__item">
+									<div class="user-balance__icon"><i class="fa fa-credit-card-alt"></i></div>
+									<div class="user-balance__value">$1999.00</div>
+									<div class="user-balance__title">Total invested</div>
+								</div>
+								<div class="user-balance__item">
+									<div class="user-balance__icon"><i class="fa fa-briefcase"></i></div>
+									<div class="user-balance__value">$1999.00</div>
+									<div class="user-balance__title">Active investments</div>
+								</div>
+								<div class="user-balance__item">
+									<div class="user-balance__icon"><i class="fa fa-shopping-cart"></i></div>
+									<div class="user-balance__value">$1999.00</div>
+									<div class="user-balance__title">Total paid</div>
+								</div>
+								<div class="user-balance__item">
+									<div class="user-balance__icon"><i class="fa fa-pie-chart"></i></div>
+									<div class="user-balance__value">$1999.00</div>
+									<div class="user-balance__title">Affiliate bonus</div>
+								</div>
+							</div>
+							<div class="user-action row">
+								<div class="user-withdraw col-lg-8">
+									<div class="user-withdraw__balance">
+										<div class="user-withdraw__balance-title">Balance:</div>
+										<div class="user-withdraw__balance-values">
+											<span class="user-withdraw__balance-value"><span>usd</span>1.00</span>
+											<span class="user-withdraw__balance-value"><span>btc</span>1.002019</span>
+											<span class="user-withdraw__balance-value"><span>dsh</span>1.9583</span>
+											<span class="user-withdraw__balance-value"><span>eth</span>12.009091</span>
+										</div>
+									</div>
+									<div class="user-withdraw__btn-wrap"><button class="btn btn-green user-withdraw__btn">Withdraw</button></div>
+								</div>
+								<div class="user-affiliate col-lg-4">
+									<div class="user-affiliate__title">My affiliate link</div>
+									<div class="user-affiliate__link-wrap">
+										<span class="user-affiliate__link">https://gms-invest.com/?aff=johnsnow</span>
+										<button class="btn btn-transparent-white user-affiliate__btn"><i class="fa fa-copy"></i></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End user-panel -->
+
+
+			<!-- Start my-invests -->
+			<div class="my-invests">
+				<div class="container">
+					<div class="section-title">History</div>
+					<div class="table-filter table-filter--history nav" role="tablist">
+						<button class="nav-link btn table-filter__link active" data-toggle="tab" href="#invtab" role="tab">Investments</button>
+						<button class="nav-link btn table-filter__link" data-toggle="tab" href="#accruals" role="tab">Accruals</button>
+						<button class="nav-link btn table-filter__link" data-toggle="tab" href="#bonus" role="tab">Ref.Bonus</button>
+						<button class="nav-link btn table-filter__link" data-toggle="tab" href="#withdrawal" role="tab">Widthdrawal</button>
+						<div class="date-filter">
+							<div class="date-filter__title">Date:</div>
+							<div class="date-filter__item">
+								<div class="date-filter__label">From</div>
+								<button class="btn btn-white date-filter__btn">19/10/2017</button>
+							</div>
+							<div class="date-filter__item">
+								<div class="date-filter__label">To</div>
+								<button class="btn btn-white date-filter__btn">19/10/2017</button>
+							</div>
+						</div>
+					</div>
+					<div class="i-table tab-content">
+						<div class="tab-pane active table-responsive" id="invtab" role="tabpanel">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Payment method</th>
+										<th>Plan</th>
+										<th>Amount</th>
+										<th>Date</th>
+										<th>Id</th>
+										<th>Status</th>
+										<th>Details</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+										<td>6% Daily</td>
+										<td class="text-blue fw500">$ 399.00 / 0.1920312 BTC</td>
+										<td>9/10/2017 18:17:34</td>
+										<td>10293845</td>
+										<td>COMPLETEd</td>
+										<td><a class="i-table__link-icon" href="#!"><i class="fa fa-external-link"></i></a></td>
+									</tr>
+									<tr>
+										<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+										<td>6% Daily</td>
+										<td class="text-blue fw500">$ 399.00 / 0.1920312 BTC</td>
+										<td>9/10/2017 18:17:34</td>
+										<td>10293845</td>
+										<td>COMPLETEd</td>
+										<td><a class="i-table__link-icon" href="#!"><i class="fa fa-external-link"></i></a></td>
+									</tr>
+									<tr>
+										<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+										<td>6% Daily</td>
+										<td class="text-blue fw500">$ 399.00 / 0.1920312 BTC</td>
+										<td>9/10/2017 18:17:34</td>
+										<td>10293845</td>
+										<td>COMPLETEd</td>
+										<td><a class="i-table__link-icon" href="#!"><i class="fa fa-external-link"></i></a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane table-responsive" id="accruals" role="tabpanel">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Payment method</th>
+										<th>Date</th>
+										<th>Amount</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+										<td>9/10/2017 18:17:34</td>
+										<td class="text-blue fw500">$ 399.00 / 0.1920312 BTC</td>
+									</tr>
+									<tr>
+										<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+										<td>9/10/2017 18:17:34</td>
+										<td class="text-blue fw500">$ 399.00 / 0.1920312 BTC</td>
+									</tr>
+									<tr>
+										<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+										<td>9/10/2017 18:17:34</td>
+										<td class="text-blue fw500">$ 399.00 / 0.1920312 BTC</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane table-responsive" id="bonus" role="tabpanel">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Payment method</th>
+										<th>Date</th>
+										<th>Amount</th>
+										<th>Ref.level</th>
+										<th>Details</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+										<td>9/10/2017 18:17:34</td>
+										<td class="text-blue fw500">$ 399.00 / 0.1920312 BTC</td>
+										<td>1</td>
+										<td>From:<span class="i-table__lowcase-right">lannister</span></td>
+									</tr>
+									<tr>
+										<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+										<td>9/10/2017 18:17:34</td>
+										<td class="text-blue fw500">$ 399.00 / 0.1920312 BTC</td>
+										<td>1</td>
+										<td>From:<span class="i-table__lowcase-right">lannister</span></td>
+									</tr>
+									<tr>
+										<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+										<td>9/10/2017 18:17:34</td>
+										<td class="text-blue fw500">$ 399.00 / 0.1920312 BTC</td>
+										<td>1</td>
+										<td>From:<span class="i-table__lowcase-right">lannister</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane table-responsive" id="withdrawal" role="tabpanel">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Payment method</th>
+										<th>Date</th>
+										<th>Amount</th>
+										<th>Id</th>
+										<th>Status</th>
+										<th>Details</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+										<td>9/10/2017 18:17:34</td>
+										<td class="text-blue fw500">$ 399.00 / 0.1920312 BTC</td>
+										<td>10293845</td>
+										<td>COMPLETEd</td>
+										<td><a class="i-table__link-icon" href="#!"><i class="fa fa-external-link"></i></a></td>
+									</tr>
+									<tr>
+										<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+										<td>9/10/2017 18:17:34</td>
+										<td class="text-blue fw500">$ 399.00 / 0.1920312 BTC</td>
+										<td>10293845</td>
+										<td>COMPLETEd</td>
+										<td><a class="i-table__link-icon" href="#!"><i class="fa fa-external-link"></i></a></td>
+									</tr>
+									<tr>
+										<td class="i-table__wallet-icon"><i class="fa fa-bitcoin"></i>Btc</td>
+										<td>9/10/2017 18:17:34</td>
+										<td class="text-blue fw500">$ 399.00 / 0.1920312 BTC</td>
+										<td>10293845</td>
+										<td>COMPLETEd</td>
+										<td><a class="i-table__link-icon" href="#!"><i class="fa fa-external-link"></i></a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<button class="btn btn-blue i-table__btn ladda-button"><span class="ladda-label">Show more</span><i class="fa fa-angle-down"></i></button>
+					<!-- Start no-transaction -->
+
+					<div class="table-filter table-filter--history nav" role="tablist">
+						<button class="nav-link btn table-filter__link disabled" data-toggle="tab" href="#invtab" role="tab">Investments</button>
+						<button class="nav-link btn table-filter__link disabled" data-toggle="tab" href="#accruals" role="tab">Accruals</button>
+						<button class="nav-link btn table-filter__link disabled" data-toggle="tab" href="#bonus" role="tab">Ref.Bonus</button>
+						<button class="nav-link btn table-filter__link disabled" data-toggle="tab" href="#withdrawal" role="tab">Widthdrawal</button>
+						<div class="date-filter">
+							<div class="date-filter__title">Date:</div>
+							<div class="date-filter__item">
+								<div class="date-filter__label">From</div>
+								<button class="btn btn-white date-filter__btn disabled">19/10/2017</button>
+							</div>
+							<div class="date-filter__item">
+								<div class="date-filter__label">To</div>
+								<button class="btn btn-white date-filter__btn disabled">19/10/2017</button>
+							</div>
+						</div>
+					</div>
+					<div class="i-table tab-content">
+						<div class="i-table__no-transaction">
+							<p class="i-table__no-transaction-text">LOOKS LIKE YOU DONT HAVE ANY TRANSACTIONS</p>
+						</div>
+					</div>
+					<!-- End no-transaction -->
+				</div>
+			</div>
+			<!-- End my-invests -->
+
+
+		</main>
+		<!-- End main-content -->
+
+	</div>
+	<!-- End wrapper -->
+
+	<!-- Start footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="logo-footer">
+					<a href="#!" class="logo"><img src="img/logo-footer.png" alt="logo"></a>
+				</div>
+				<div class="server-time">
+					<span class="server-time__title">Server-time:</span>
+					<span class="server-time__time">09:09:15</span>
+				</div>
+				<div class="social">
+					<a href="#!" class="social__link"><i class="fa fa-facebook"></i></a>
+					<a href="#!" class="social__link"><i class="fa fa-telegram"></i></a>
+					<a href="#!" class="social__link"><i class="fa fa-skype"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer -->
+	
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>

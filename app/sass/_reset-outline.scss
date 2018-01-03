@@ -1,0 +1,22 @@
+/*disable focus outline*/
+.bootstrap-select .dropdown-toggle:focus,
+a:focus,
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+.btn:focus,
+.btn:active,
+.btn:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline: 0 !important;
+    -webkit-appearance:none;
+}
+.btn.focus, .btn:focus {
+	box-shadow: none;
+}

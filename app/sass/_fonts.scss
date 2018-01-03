@@ -1,0 +1,7 @@
+@import "_mixins/font-face";
+
+@include fontFace("Proxima Nova", "../fonts/ProximaNova-Regular/ProximaNova-Regular", normal, normal);
+@include fontFace("Proxima Nova", "../fonts/ProximaNova-Semibold/ProximaNova-Semibold", normal, 500);
+@include fontFace("Proxima Nova", "../fonts/ProximaNova-Bold/ProximaNova-Bold", normal, 700);
+@include fontFace("FontAwesome", "../fonts/fontawesome/fontawesome-webfont", normal, normal);
+@include fontFace("fontwallet", "../fonts/fontwallet/fontwallet", normal, normal);
