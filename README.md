@@ -9,7 +9,7 @@ Bootstrap 4 and BEM
 	<li>Responsive design</li>
 	<li>Bootstrap 4</li>
 	<li>BEM</li>
-	<li>made icon fonts</li>
+	<li>made icon font</li>
 	<li>4 pages</li>
 </ul>
 <div><img src="screencast_msg.gif" alt=""></div>
